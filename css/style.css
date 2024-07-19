@@ -5,7 +5,7 @@ ul, ol{list-style: none;}
 a{text-decoration: none; color: #111;}
 body{
     font-size: 16px;
-    font-family: 'NanumSquare';
+    font-family: 'NanumSquareAcr';
     line-height: 1.6;
     color: #111;
 }
@@ -691,8 +691,9 @@ background-position: center right;}
     width: 120px;
     font-size: 20px;
 }
-.map_text dd{
-    width:calc(100% -120px);
+#map .map_text dd{
+    display: inline-block;
+    width:calc(100% - 120px);
 }
 
 /*contact*/
