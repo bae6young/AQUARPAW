@@ -959,6 +959,7 @@ color: #F5F6F8;
         text-align: right;
     }
     /*faci*/
+    
     .faci_inner, .faci_title{
         width: 90%;
     }
@@ -1068,7 +1069,7 @@ color: #F5F6F8;
     }
     /*main_visual*/
     .mv{
-        height: 750px;
+        height: 650px;
         overflow: hidden;
     }
     .mv img{
@@ -1181,7 +1182,7 @@ color: #F5F6F8;
     }
     /*faci*/
     #faci{
-        height: 660px;
+        height: 750px;
     }
     .faci_inner, .faci_title{
         width: 90%;
