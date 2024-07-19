@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUARPAW</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link href="https://webfontworld.github.io/NanumSquare/NanumSquare.css" rel="stylesheet">
+    <!--웹폰트, 나눔스퀘어-->
+    <link href="https://webfontworld.github.io/ridi/RidiBatang.css" rel="stylesheet">
+    <!--웹폰트, 리디바탕-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--웹폰트, Caudex-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--스와이퍼 링크-->
+
+    <!--css링크-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="top">
+        <div class="top_inner">
+            <div class="top_left">
+                <ul class="kr">
+                    <li>kr
+                        <ul class="kr_sub">
+                            <li>eng</li>
+                            <li>ch</li>
+                            <li>jp</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div><img src="./img/button.png"  class="button"alt="삼각버튼"></div>
+            </div><!--tpp_left-->
+            <div class="top_right">
+                <ol>
+                    <li><a>맴버쉽</a></li>
+                    <li><a>예약확인</a></li>
+                    <li><a>로그인</a></li>
+                </ol>
+            </div><!--top_right-->
+        </div>
+        <!--top_inner-->
+        
+    </div>
+    <!--top-->
+
+    <div id="header">
+        <div class="header_inner">
+            <div class="logo"><a href="#index"><img src="./img/logo.png" alt="아쿠아포 로고"></a>
+            </div>
+            <ul class="gnb">
+                <li><a href="#">AQUARPAW</a>
+                    <ul class="sub">
+                        <li><a href="#">호텔소개</a></li>
+                        <li><a href="#">호텔 소식</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </li><!--AQUARPAW-->
+                <li><a href="#">ROOM</a>
+                    <ul class="sub">
+                        <li><a href="#">스탠다드</a></li>
+                        <li><a href="#">디럭스</a></li>
+                        <li><a href="#">스위트</a></li>
+                    </ul>
+                </li><!--ROOM-->
+                <li><a href="#">DINNING</a>
+                    <ul class="sub">
+                        <li><a href="#">뷔페</a></li>
+                        <li><a href="#">레스토랑</a></li>
+                        <li><a href="#">라운지&바</a></li>
+                        <li><a href="#">카페</a></li>
+                    </ul>
+                </li><!--DINNING-->
+                <li><a href="#">OFFERS</a></li><!--OFFERS-->
+                <li><a href="#">FACILITIES</a>
+                    <ul class="sub">
+                        <li><a>실내수영장</a></li>
+                        <li><a>애견 놀이터</a></li>
+                        <li><a>애견 스파&샬롱</a></li>
+                        <li><a>피트니스센터</a></li>
+                        <li><a>해안정원</a></li>
+                    </ul>
+                </li><!--FACILITIES-->
+            </ul><!--gnb-->
+        </div><!--header_inner-->
+        <div class="sub_bg"></div><!--sub_bg-->
+
+        <!--햄버거 메뉴-->
+        <div class="slide-open" id="slide-open">
+            <span class="burgur" id="burgur">
+                <span class="top-line"></span>
+                <span class="bot-line"></span>
+             </span>
+         </div><!--slide-open-->
+       <div class="slide" id="slide">
+        <ul>
+            <li><a>AQUARPAW</a>
+                <ul class="sub_slide">
+                    <li><a>호텔소개</a></li>
+                    <li><a>호텔 소식</a></li>
+                    <li><a>찾아오시는 길</a></li>
+                </ul>
+            </li><!--AQUARPAW-->
+            <li><a>ROOM</a>
+                <ul class="sub_slide">
+                    <li><a>스탠다드</a></li>
+                    <li><a>디럭스</a></li>
+                    <li><a>스위트</a></li>
+                </ul>
+            </li><!--ROOM-->
+            <li><a>DINNING</a>
+                <ul class="sub_slide">
+                    <li><a>뷔페</a></li>
+                    <li><a>레스토랑</a></li>
+                    <li><a>라운지&바</a></li>
+                    <li><a>카페</a></li>
+                </ul>
+            </li><!--DINNING-->
+            <li><a>OFFERS</a></li><!--OFFERS-->
+            <li><a>FACILITIES</a>
+                <ul class="sub_slide">
+                    <li><a>실내수영장</a></li>
+                    <li><a>애견 놀이터</a></li>
+                    <li><a>애견 스파&샬롱</a></li>
+                    <li><a>피트니스센터</a></li>
+                    <li><a>해안정원</a></li>
+                </ul>
+            </li><!--FACILITIES-->
+        </ul>
+         </div><!--slide-->
+    </div>
+    <!--header-->
+
+    <div id="main_visual">
+        <div class="swiper mv">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/visual01.jpg" alt="옥상수영장 이미지">
+              </div><!--slide-->
+              <div class="swiper-slide">
+                <img src="./img/visual02.jpg" alt="옥상수영장 이미지">
+              </div><!--slide-->
+              <div class="swiper-slide">
+                <img src="./img/visual03.jpg" alt="옥상수영장 이미지">
+              </div><!--slide-->
+            </div><!--swiper-wrapper-->
+          </div><!--swiper-->
+          <div class="main_check">
+            <div class="check_box">
+                <div class="check_left">
+                    <dl>
+                        <dt>CHECK IN</dt>
+                        <dd><input type="date"></dd>
+                    </dl>
+                    <dl>
+                        <dt>CHECK OUT</dt>
+                        <dd><input type="date"></dd>
+                    </dl>
+                </div>
+                <div class="check_line"></div>
+                <div class="check_right">
+                    <dl>
+                        <dt>성인</dt>
+                        <dd><input type="number" min="1" value="0"></dd>
+                    </dl>
+                    <dl>
+                        <dt>아동</dt>
+                        <dd><input type="number" min="0" value="0"></dd>
+                    </dl>
+                    <dl>
+                        <dt>객실</dt>
+                        <dd><input type="number" min="1" value="0"></dd>
+                    </dl>
+                </div>
+            </div><!--check_box-->
+            
+            <div class="check_button">
+                <input type="submit" value="Search" class="submit">
+            </div>
+          </div><!--main_check-->
+    </div>
+    <!--main_visual-->
+
+    <div id="main_text">
+        <div class="main_logo">
+            <img src="./img/logo_blue.png" alt="아쿠아포 로고">
+        </div>
+        <p>도심과 바다를 함께 즐기는 시간 <br>
+        작은 가족과 소중하고 특별한 순간을 나누세요.</p>
+    </div>
+    <!--main_text-->
+
+    <div id="offer">
+        <div class="offer_left">
+            <div class="ol_wrap">
+                <h2 class="title">프로모션<span>special Offer</span></h2>
+                <p>아쿠아포 호텔에서 만날 수 있는<br>
+                    특별한 서비스와 해택을 누려보세요.</p>
+                <a><img src="./img/arrow_blue.png" alt="바로가기" class="arrow"></a>
+                <div class="swiper-pagination os_pag"></div>
+            </div>
+        </div><!--offer_left-->
+        
+        <div class="offer_right">
+            <div class="swiper os">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide os_slide">
+                    <div class="os_img">
+                        <img src="./img/offer01.jpg" alt="조식인룸 서비스">
+                    </div>
+                    <div class="os_text"><a>
+                        <h3>조식인룸 서비스</h3>
+                        <p>객실에서 즐기는 조식 서비스</p>
+                    </a></div>
+                  </div><!--swiper-slide-->
+                  <div class="swiper-slide os_slide">
+                    <div class="os_img">
+                        <img src="./img/offer02.jpg" alt="오션뷰룸">
+                    </div>
+                    <div class="os_text"><a>
+                        <h3>오션뷰룸</h3>
+                        <p>
+                            아쿠아포에서만 찾을 수 있는<br>
+                            전 객실 오션뷰
+                        </p>
+                    </a></div>
+                  </div><!--swiper-slide-->
+                  <div class="swiper-slide os_slide">
+                    <div class="os_img">
+                        <img src="./img/offer03.jpg" alt="애견 맞춤 공간">
+                    </div>
+                    <div class="os_text"><a>
+                        <h3>애견 맞춤 공간</h3>
+                        <p>
+                            애견용 어메니티와 함께<br>
+                            제공되는 애견 전용 시설과 서비스
+                        </p>
+                    </a></div>
+                  </div><!--swiper-slide-->
+                  <div class="swiper-slide os_slide">
+                    <div class="os_img">
+                        <img src="./img/offer04.jpg" alt="기념일 서비스">
+                    </div>
+                    <div class="os_text"><a>
+                        <h3>기념일 서비스</h3>
+                        <p>
+                            오늘을 더 특별하게 만드는<br>
+                            아쿠아포의 맞춤 이벤트
+                        </p>
+                    </a></div>
+                  </div><!--swiper-slide-->
+                  <div class="swiper-slide os_slide">
+                    <div class="os_img">
+                        <img src="./img/offer05.jpg" alt="픽업 서비스">
+                    </div>
+                    <div class="os_text"><a>
+                        <h3>픽업 서비스</h3>
+                        <p>
+                            어디서나 편하게<br>
+                            호텔을 찾아올 수 있습니다
+                         </p>
+                    </a></div>
+                  </div><!--swiper-slide-->
+                </div><!--swiper-wrapper-->
+                
+                <div class="swiper-button-next os_next"></div>
+                <div class="swiper-button-prev os_prev"></div>
+              </div><!--swiper-->
+              
+        </div><!--offer_right-->
+       
+    </div>
+    <!--offer-->
+
+    <div id="room">
+            <h2 class="title">객실<span>Room</span></h2>
+            <p>사람과 애견 모두 만족할 수 있도록 디자인된 특별한 객실</p>
+            <ul>
+                <li class="room_inform">
+                    <img src="./img/room01.jpg" alt="">
+                    <img src="./img/room01_hover.jpg" alt="" class="room_hover">
+                    <div class="room_text">
+                    <h3>스탠다드</h3>
+                    <p>
+                        모던하고 청량한 분위기를 자아내는 공간으로 <br>
+                        반려동물과 함께 편안한 시간을 보낼 수 있는 <br>
+                        기본적인 시설을 갖추고 있습니다.
+                    </p></div>
+                    <a></a>                
+                </li>
+                <li class="room_inform">
+                    <img src="./img/room02.jpg" alt="">
+                    <img src="./img/room02_hover.jpg" alt="" class="room_hover">
+                    <div class="room_text">
+                        <h3>디럭스</h3>
+                        <p>
+                            디럭스 룸은 넓고 여유로운 공간으로, 
+                            <br>
+                            가족 여행이나 좀 더 편안한 휴식을 <br> 원하는 분들께 적합합니다. <br> 
+                            반려동물을 위한 추가 편의 시설이<br>  마련되어 있습니다.
+                        </p></div>
+                    <a></a>  
+                </li>
+                <li class="room_inform">
+                    <img src="./img/room03.jpg" alt="">
+                    <img src="./img/room03_hover.jpg" alt="" class="room_hover">
+                    <div class="room_text">
+                        <h3>스위트</h3>
+                        <p>
+                            스위트 룸은 최고급 럭셔리 공간으로,<br> 
+                             특별한 휴가를 계획하는 분들께 <br> 이상적입니다. 넓은 거실과 침실, <br> 고급스러운 인테리어, <br> 
+                             탁 트인 바다 전망을 감상할 수 있습니다.
+                        </p></div>
+                    <a></a>  
+                </li>
+            </ul>
+    </div>
+    <!--room-->
+    <div id="faci">
+        <div class="faci_title">
+                <h2 class="title">부대시절<span>FACILITIES</span></h2></div><!--faci_title-->
+        <div class="faci_inner">
+            
+                <ul class="tab">
+                    <li><a href="#tab01">해안정원</a></li>
+                    <li><a href="#tab02">야외수영장</a></li>
+                    <li><a href="#tab03">애견놀이터</a></li>
+                    <li><a href="#tab04">애견스파&샬롱</a></li>
+                </ul>
+            
+            <ul class="faci_text">
+                <li id="tab01">
+                    <p>
+                        바다와 녹음을 한번에 즐길 수 있는 산책로가 준비되어 있습니다. <br>강아지와 함께 산책도 가능하며, 아쿠아포의 정원사가 준비한 미니온실도 관람하실 수 있습니다.
+                    </p>
+                    <a><img src="./img/arrow.png" alt=""></a>
+                </li>
+                <li id="tab02">
+                    <p>
+                        반려동물과 함께 라운지를 즐길 수 있는 1층 수영장과
+                        도심과 바다를 한 눈에 담으며 프라이빗하게 시간을 
+                        보낼 수 있는 옥상 수영장이 준비되어있습니다.
+                    </p>
+                    <a><img src="./img/arrow.png" alt=""></a>
+                </li>
+                <li id="tab03">
+                    <p>
+                        여행 중에도 강아지의 활동량과 즐거움을 위해 애견놀이터가 준비되어있습니다.<br>
+                        야외 놀이터와 우천시에 사용할 수 있는 실내놀이터 모두 상시 이용가능합니다.
+                    </p>
+                    <a><img src="./img/arrow.png" alt=""></a>
+                </li>
+                <li id="tab04">
+                    <p>
+                        아쿠아포의 애견 스파와 샬롱은 단순히 미용 목적 뿐만 아니라 건강을 위한 관리도 함께 진행하고, <br>
+                        이를 위해 엄격한 검증을 거친 전문가들이 함께 합니다.
+
+                    </p>
+                    <a><img src="./img/arrow.png" alt=""></a>
+                </li>
+            </ul>
+        </div><!--faci_inner-->
+    </div>
+    <!--faci-->
+    <div id="package">
+        <h2 class="title">패키지<span>PACKAGE</span></h2>
+        <p>아쿠아포에서만 만날 수 있는 다양한 패키지 여행</p>
+        <ul class="package_con">
+            <li><a>
+                <h3>아쿠아투어</h3>
+                <p>
+                    해변 소개와 함께 부산에서만 할 수 있는 엑티비티가 준비되어 있습니다.
+                    광활한 바다와 함께 다양한 활동을 즐겨보세요.
+                </p>
+            </a>
+            </li>
+            <li><a>
+                <h3>시티투어</h3>
+                <p>
+                    영도, 감천문화마을을 비롯해서 도심 곳곳에 숨어있는 숨는 장소를 편안하게 방문 할 수 있습니다.
+                </p>
+            </a>
+            </li>
+            <li><a>
+                <h3>포어투어</h3>
+                <p>
+                    강아지와 함께 할 수 있는 다양한 코스로 다른 곳에서는 찾을 수 없었던 경험을 나눌 수 있습니다.
+                </p>
+            </a>
+            </li>
+        </ul>
+    </div>
+    <!--package-->
+    <div id="map">
+        <div class="map_left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.7233826727424!2d129.1560665763515!3d35.16351885823876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688d5e1ec167b1%3A0x447c53209fc5f3a0!2z7ZW07Jq064yA7Jet!5e0!3m2!1sko!2skr!4v1721273932429!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!--map_left-->
+
+        <div class="map_right">
+            <div class="map_wrap">
+                <h3 class="title">오시는 길</h3>
+                <dl class="map_text">
+                    <dt>지하철</dt>
+                    <dd>부산 2호선 해운대역 0번 출구 도보 0분</dd>
+                </dl>
+                <dl class="map_text">
+                    <dt>버스</dt>
+                    <dd>
+                        시내버스 / 31, 38, 141(심야) 등 해운대역 정차<br>
+                        시외버스 / 1001(심야), 1006, 1011 해운대역 정차
+                    </dd>
+                </dl>
+                <dl class="map_text">
+                    <dt>주차장 안내</dt>
+                    <dd>
+                        부산 해운대구 해운대로 626 <br>
+                        (숙박객 무료)
+                    </dd>
+                </dl>
+            </div>
+        </div><!--map_right-->
+    </div>
+    <!--map-->
+    <div id="contact">
+        <div class="contact_inner">
+            <h4>Contact With Us</h4>
+            <ul class="icon">
+                <li><a><img src="./img/icon01.png" alt="페이스북"></a></li>
+                <li><a><img src="./img/icon02.png" alt="유투브"></a></li>
+                <li><a><img src="./img/icon03.png" alt="인스타"></a></li>
+                <li><a><img src="./img/icon04.png" alt="틱톡"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="footer_logo"><img src="./img/logo_white.png" alt=""></div>
+            <ul>
+                <li><a>고객센터</a></li>
+                <li><a>오시는 길</a></li>
+                <li><a>호텔 이용 약관</a></li>
+                <li><a>개인 정보 정책</a></li>
+                <li><a>이용약관</a></li>
+            </ul>
+            <p>
+                부산 해우대구 해운대로 000 아쿠아포 호텔<br>
+                사업자등록번호 123-45-678910<br>
+                대표변호 000-000-0000
+                팩스 000-000-0000
+            </p>
+            <select name="" class="footer_list">
+                <option value="">family site</option>
+              </select>
+            <div class="copyright"><p>
+                (c)AQUAR PAW HOTEL
+            </p></div>
+        </div><!--footer_inner-->
+    </div>
+    <!--footer-->
+
+    <div id="top_btn">
+        <a href="javascript:window.scrollTo(0,0);">top</a>
+    </div>
+    <!--top_btn-->
+    
+    <!--js-->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!--햄버거 메뉴-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="./js/hamburger.js"></script>
+    
+    <!--swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mv", {
+      spaceBetween: 30,
+      effect: "fade",
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop:true,
+    }); //main_visual
+    var swiper = new Swiper(".os", {
+        centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".os_pag",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      //크기에 따른 슬라이드 갯수 변화
+        slidesPerView: 1,
+        centeredSlides:true,
+        spaceBetween: 10,
+        breakpoints: {
+            700: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            },//700~1169
+            1170: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            },//1170 이상
+            1440: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            },//1170 이상
+            },
+    });//offer
+
+  </script>
+
+</body>
+</html>
