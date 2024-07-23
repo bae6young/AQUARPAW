@@ -96,6 +96,10 @@ body a{
     position: absolute;
     top: 20px;
     left: 0;
+    width: 209px;
+}
+.logo img{
+    width: 100%;
 }
 .gnb{
     display: flex;
@@ -350,12 +354,14 @@ transform: translateY(-5px) rotate(-135deg);
 #main_text{
     text-align: center;
     padding: 100px 0;
+    
 }
 .main_logo{
-    padding-bottom: 10px;
+    padding-bottom: 10px;display: flex;
+    justify-content: center;
 }
 .main_logo img{
-    width: 25%;
+    width: 330px
 }
 #main_text P{
     font-size: 20px;
@@ -760,11 +766,8 @@ background-position: center right;}
 .footer_inner ul li a{
 color: #F5F6F8;
 }
-.footer_logo{
-    text-align: center;
-}
 .footer_logo img{
-    width: 15%;
+    width: 210px;
 }
 
 .footer_list{
