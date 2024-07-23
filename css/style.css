@@ -351,8 +351,11 @@ transform: translateY(-5px) rotate(-135deg);
     text-align: center;
     padding: 100px 0;
 }
-#main_text img{
-    max-width: 100%;
+.main_logo{
+    padding-bottom: 10px;
+}
+.main_logo img{
+    width: 25%;
 }
 #main_text P{
     font-size: 20px;
@@ -757,6 +760,12 @@ background-position: center right;}
 .footer_inner ul li a{
 color: #F5F6F8;
 }
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    width: 15%;
+}
 
 .footer_list{
     width: 210px;
@@ -1120,6 +1129,10 @@ color: #F5F6F8;
         width: 30px;
     }
     /*main_text*/
+    
+    #main_text img{
+        max-width: 100%;
+    }
     #main_text P{
         font-size: 16px;
     }
